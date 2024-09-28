@@ -15,7 +15,7 @@ default_args = {
 
 # Definimos el DAG
 with DAG(
-    dag_id='hello_world_dag',      # Nombre del DAG
+    dag_id='test_dag',      # Nombre del DAG
     default_args=default_args,     # Parámetros por defecto
     schedule_interval='@daily',    # Ejecutar el DAG diariamente
     catchup=False,                 # No ejecutar DAGs pasados
